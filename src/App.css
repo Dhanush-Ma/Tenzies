@@ -1,0 +1,43 @@
+.die-component{
+  display: grid;
+  margin: 3rem auto;
+  width: max-content;
+  gap: 20px;
+  grid-template-columns: repeat(5,1fr);
+}
+
+.desc{
+  width: 400px;
+  margin: 0 auto;
+}
+
+button{
+  padding: 0.6rem 2rem;
+  font-family: inherit;
+  background-color: #5035FF;
+  border: none;
+  color: #FFFFFF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.container{
+  border: 1px solid black;
+  padding: 2rem;
+  background-color: #F5F5F5;
+  border-radius: 10px;
+}
+
+.result{
+  margin-bottom: 1rem;
+}
+
+.count{
+  color: #5035FF;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
